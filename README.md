@@ -1,2 +1,3 @@
 # IST
-Subject : ...
+
+Subject : Internetworking Standards and Technology.
