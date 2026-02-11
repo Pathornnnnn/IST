@@ -1,5 +1,5 @@
 enable
-configure terminal
+conf t
 !
 hostname Switch_A
 !

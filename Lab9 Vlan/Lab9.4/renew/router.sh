@@ -1,3 +1,5 @@
+enable
+conf t
 ! --- Basic Setup & Security ---
 hostname Router-Core
 service password-encryption

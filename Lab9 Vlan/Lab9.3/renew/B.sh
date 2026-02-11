@@ -1,3 +1,7 @@
+enable
+conf t
+!
+hostname Switch_B
 !
 version 15.0
 no service timestamps log datetime msec

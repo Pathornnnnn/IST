@@ -1,3 +1,5 @@
+enable
+conf t
 !
 version 15.0
 no service timestamps log datetime msec
