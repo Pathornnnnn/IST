@@ -1,6 +1,3 @@
-Building configuration...
-
-Current configuration : 1284 bytes
 !
 version 12.2
 no service timestamps log datetime msec
@@ -49,13 +46,9 @@ no ipv6 cef
 !
 !
 interface FastEthernet0/0
- no ip address
+ ip address 192.168.1.254 255.255.255.0
  duplex auto
  speed auto
-!
-interface FastEthernet0/0.1
- encapsulation dot1Q 1 native
- ip address 192.168.1.254 255.255.255.0
 !
 interface FastEthernet0/0.10
  encapsulation dot1Q 10
@@ -99,7 +92,13 @@ line con 0
 line aux 0
 !
 line vty 0 4
+ password cisco
  login
+ transport input telnet
+line vty 5 15
+ password cisco
+ login
+ transport input telnet
 !
 !
 !
