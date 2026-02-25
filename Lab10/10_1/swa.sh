@@ -1,6 +1,3 @@
-Building configuration...
-
-Current configuration : 2263 bytes
 !
 version 12.1
 no service timestamps log datetime msec
@@ -9,7 +6,7 @@ no service password-encryption
 !
 hostname SwitchA
 !
-enable secret 5 $1$mERr$9cTjUIEqNGurQiFU.ZeCi1
+enable secret 5 $1$mERr$hx5rVt7rPNoS4wqbXKX7m0
 !
 !
 !
